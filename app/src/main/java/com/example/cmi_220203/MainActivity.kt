@@ -11,6 +11,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+//        문법 연습(변수)
+
+//        변수 만들기
+        val myName = "슈퍼릭" // 변수 생성 + 대입 => 변수의 초기화
+
+        Log.d("변수값", myName)
+
+
+
         clickBtn.setOnClickListener {
 
             // 주석
